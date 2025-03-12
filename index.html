@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kazuo Matcha - Matcha Nhật Bản Chính Gốc</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="/" class="logo">
+          <img src="images/logo.jpg" alt="Kazuo Matcha Logo">
+          <span>Kazuo Matcha</span>
+        </a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="/" class="active">Trang chủ</a></li>
+            <li><a href="/products.html">Sản phẩm</a></li>
+            <li><a href="/about.html">Về chúng tôi</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/contact.html">Liên hệ</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <div class="search-box">
+            <input type="text" placeholder="Tìm kiếm...">
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <!-- <a href="/cart.html" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">3</span>
+          </a>
+          <a href="/login.html" class="btn btn-primary">Đăng nhập</a>
+          <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </button> -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <img src="https://i.ibb.co/Jd3tVbk/matcha-logo.png" alt="Kazuo Matcha Logo">
+        <span>Kazuo Matcha</span>
+      </a>
+      <button class="mobile-menu-close"><i class="fas fa-times"></i></button>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/" class="active">Trang chủ</a></li>
+        <li><a href="/products.html">Sản phẩm</a></li>
+        <li><a href="/about.html">Về chúng tôi</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a href="/login.html" class="btn btn-primary btn-block">Đăng nhập</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+      <div class="container">
+        Miễn phí vận chuyển cho đơn hàng từ 500.000₫ | Giao hàng toàn quốc
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1582793988951-9aed5509eb97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&h=700&q=80" alt="Matcha tea ceremony">
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="badge">Trải nghiệm hương vị Nhật Bản</span>
+          <h1>Matcha Nhật Bản <br>Chính Gốc</h1>
+          <p>Kazuo Matcha mang đến trải nghiệm thưởng thức matcha cao cấp từ những vùng trồng trà nổi tiếng nhất Nhật Bản.</p>
+          <div class="hero-buttons">
+            <a href="/products.html" class="btn btn-light">Khám phá sản phẩm</a>
+            <a href="/about.html" class="btn btn-outline-light">Câu chuyện của chúng tôi</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-gradient-bottom"></div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature">
+            <div class="feature-icon">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <div class="feature-content">
+              <h3>100% Matcha Nhật Bản</h3>
+              <p>Nhập khẩu trực tiếp từ Uji, Kyoto</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <i class="fas fa-truck"></i>
+            </div>
+            <div class="feature-content">
+              <h3>Giao hàng toàn quốc</h3>
+              <p>Miễn phí cho đơn hàng từ 500.000₫</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="feature-content">
+              <h3>Đảm bảo chất lượng</h3>
+              <p>Hoàn tiền nếu không hài lòng</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>Danh mục sản phẩm</h2>
+          <p>Khám phá bộ sưu tập matcha cao cấp và các dụng cụ pha matcha truyền thống từ Nhật Bản</p>
+        </div>
+        <div class="categories-grid">
+          <a href="/products.html?category=matcha-powder" class="category-card">
+            <div class="category-image">
+              <img src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=320&h=240&q=80" alt="Bột matcha">
+              <div class="category-overlay">
+                <h3>Bột Matcha</h3>
+                <p>Matcha nguyên chất từ Nhật Bản</p>
+                <span class="view-more">Xem sản phẩm <i class="fas fa-chevron-right"></i></span>
+              </div>
+            </div>
+          </a>
+          <a href="/products.html?category=tea-sets" class="category-card">
+            <div class="category-image">
+              <img src="https://images.unsplash.com/photo-1563822249366-3efb23b8e0c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=320&h=240&q=80" alt="Bộ dụng cụ pha matcha">
+              <div class="category-overlay">
+                <h3>Bộ Dụng Cụ</h3>
+                <p>Dụng cụ pha matcha truyền thống</p>
+                <span class="view-more">Xem sản phẩm <i class="fas fa-chevron-right"></i></span>
+              </div>
+            </div>
+          </a>
+          <a href="/products.html?category=gift-sets" class="category-card">
+            <div class="category-image">
+              <img src="https://images.unsplash.com/photo-1557748362-4e95f0de4613?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=320&h=240&q=80" alt="Bộ quà tặng matcha">
+              <div class="category-overlay">
+                <h3>Bộ Quà Tặng</h3>
+                <p>Quà tặng matcha sang trọng</p>
+                <span class="view-more">Xem sản phẩm <i class="fas fa-chevron-right"></i></span>
+              </div>
+            </div>
+          </a>
+          <a href="/products.html?category=accessories" class="category-card">
+            <div class="category-image">
+              <img src="https://images.unsplash.com/photo-1547825407-2d060104b7f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=320&h=240&q=80" alt="Phụ kiện matcha">
+              <div class="category-overlay">
+                <h3>Phụ Kiện</h3>
+                <p>Phụ kiện pha và thưởng thức matcha</p>
+                <span class="view-more">Xem sản phẩm <i class="fas fa-chevron-right"></i></span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+      <div class="container">
+        <div class="section-header-with-link">
+          <div>
+            <h2>Sản phẩm nổi bật</h2>
+            <p>Những sản phẩm được yêu thích nhất tại Kazuo Matcha</p>
+          </div>
+          <a href="/products.html" class="view-all">Xem tất cả <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="products-grid">
+          <!-- Product 1 -->
+          <div class="product-card">
+            <div class="product-image">
+              <span class="product-badge bestseller">Bán chạy</span>
+              <img src="https://images.unsplash.com/photo-1563822453-d2f9335ae99b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=320&h=240&q=80" alt="Matcha Ceremonial Grade">
+              <div class="product-actions">
+                <button class="btn btn-secondary btn-sm"><i class="fas fa-eye"></i> Xem nhanh</button>
+                <button class="btn btn-primary btn-sm"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(24)</span>
+              </div>
+              <h3><a href="/product/matcha-ceremonial.html">Matcha Ceremonial Grade</a></h3>
+              <p>Bột matcha cao cấp dành cho nghi thức trà đạo</p>
+              <div class="product-price">850.000₫</div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card">
+            <div class="product-image">
+              <span class="product-badge sale">-15%</span>
+              <img src="https://images.unsplash.com/photo-1607260550778-aa9d29444ce7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=320&h=240&q=80" alt="Bộ dụng cụ pha matcha truyền thống">
+              <div class="product-actions">
+                <button class="btn btn-secondary btn-sm"><i class="fas fa-eye"></i> Xem nhanh</button>
+                <button class="btn btn-primary btn-sm"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(18)</span>
+              </div>
+              <h3><a href="/product/tea-set.html">Bộ dụng cụ pha matcha truyền thống</a></h3>
+              <p>Bộ dụng cụ đầy đủ để pha matcha theo phong cách Nhật Bản</p>
+              <div class="product-price">
+                <span class="current-price">1.250.000₫</span>
+                <span class="old-price">1.470.000₫</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <span class="product-badge new">Mới</span>
+              <img src="https://images.unsplash.com/photo-1515696955266-4f67e13219e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=320&h=240&q=80" alt="Bộ quà tặng Matcha Premium">
+              <div class="product-actions">
+                <button class="btn btn-secondary btn-sm"><i class="fas fa-eye"></i> Xem nhanh</button>
+                <button class="btn btn-primary btn-sm"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(12)</span>
+              </div>
+              <h3><a href="/product/gift-set.html">Bộ quà tặng Matcha Premium</a></h3>
+              <p>Hộp quà sang trọng với matcha cao cấp và các phụ kiện</p>
+              <div class="product-price">1.950.000₫</div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1578866608018-6f3d1f98e9b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=320&h=240&q=80" alt="Chén uống matcha gốm sứ">
+              <div class="product-actions">
+                <button class="btn btn-secondary btn-sm"><i class="fas fa-eye"></i> Xem nhanh</button>
+                <button class="btn btn-primary btn-sm"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(9)</span>
+              </div>
+              <h3><a href="/product/matcha-bowl.html">Chén uống matcha gốm sứ</a></h3>
+              <p>Chén gốm sứ thủ công cao cấp dành riêng cho matcha</p>
+              <div class="product-price">350.000₫</div>
+            </div>
+          </div>
+        </div>
+        <div class="view-all-mobile">
+          <a href="/products.html" class="btn btn-outline">
+            Xem tất cả sản phẩm
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image">
+            <div class="about-image-decoration top-left"></div>
+            <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=600&q=80" alt="Matcha fields in Japan">
+            <div class="about-image-decoration bottom-right"></div>
+          </div>
+          <div class="about-content">
+            <span class="about-label">Câu chuyện của chúng tôi</span>
+            <h2>Từ những đồi trà xanh Nhật Bản đến Việt Nam</h2>
+            <p>Kazuo Matcha được thành lập với mong muốn mang đến cho người Việt Nam trải nghiệm thưởng thức matcha chính gốc Nhật Bản với chất lượng cao nhất. Chúng tôi trực tiếp làm việc với các nhà sản xuất matcha truyền thống tại Uji, Kyoto - vùng đất nổi tiếng với lịch sử hơn 800 năm trồng và chế biến trà matcha.</p>
+            <p>Mỗi sản phẩm của Kazuo Matcha đều được lựa chọn kỹ lưỡng, đảm bảo nguồn gốc và chất lượng cao cấp nhất, mang đến hương vị đích thực của matcha Nhật Bản cho người Việt Nam.</p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Năm kinh nghiệm</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Vùng trồng trà hợp tác</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">1000+</span>
+                <span class="stat-label">Khách hàng hài lòng</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">20+</span>
+                <span class="stat-label">Sản phẩm độc quyền</span>
+              </div>
+            </div>
+            <a href="/about.html" class="btn btn-primary">Tìm hiểu thêm</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>Lợi ích của Matcha</h2>
+          <p>Matcha không chỉ là một loại trà, mà còn là một nguồn dinh dưỡng dồi dào với nhiều lợi ích sức khỏe</p>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-dna"></i>
+            </div>
+            <h3>Giàu chất chống oxy hóa</h3>
+            <p>Matcha chứa hàm lượng catechin cao, đặc biệt là EGCG (epigallocatechin gallate), một chất chống oxy hóa mạnh giúp bảo vệ tế bào khỏi tổn thương.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3>Tốt cho tim mạch</h3>
+            <p>Các nghiên cứu cho thấy matcha có thể giúp giảm cholesterol xấu (LDL), tăng cholesterol tốt (HDL) và hỗ trợ sức khỏe tim mạch tổng thể.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>Tăng cường tập trung</h3>
+            <p>Matcha chứa L-theanine, một axit amin giúp tăng cường tập trung, cải thiện trí nhớ và mang lại cảm giác thư giãn mà không gây buồn ngủ.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+      <div class="container">
+        <div class="section-header-with-link">
+          <div>
+            <h2>Kiến thức về Matcha</h2>
+            <p>Khám phá văn hóa và bí quyết thưởng thức matcha</p>
+          </div>
+          <a href="/blog.html" class="view-all">Xem tất cả <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="blog-grid">
+          <a href="/blog/matcha-ceremony.html" class="blog-card">
+            <div class="blog-image">
+              <img src="https://images.unsplash.com/photo-1542326237-94b1c5a538d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=240&q=80" alt="Nghi thức trà đạo Nhật Bản">
+            </div>
+            <div class="blog-date">12 Tháng 5, 2023</div>
+            <h3>Nghi thức trà đạo Nhật Bản: Lịch sử và ý nghĩa</h3>
+            <p>Tìm hiểu về lịch sử hình thành và ý nghĩa sâu sắc của nghi thức trà đạo trong văn hóa Nhật Bản.</p>
+          </a>
+          <a href="/blog/matcha-benefits.html" class="blog-card">
+            <div class="blog-image">
+              <img src="https://images.unsplash.com/photo-1552346989-e069318e20a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=240&q=80" alt="Lợi ích sức khỏe của matcha">
+            </div>
+            <div class="blog-date">28 Tháng 4, 2023</div>
+            <h3>10 lợi ích sức khỏe không ngờ từ việc uống matcha hàng ngày</h3>
+            <p>Khám phá những lợi ích sức khỏe tuyệt vời mà matcha mang lại khi bạn thưởng thức nó đều đặn mỗi ngày.</p>
+          </a>
+          <a href="/blog/matcha-recipes.html" class="blog-card">
+            <div class="blog-image">
+              <img src="https://images.unsplash.com/photo-1545018595-e31e1d7f6cc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=240&q=80" alt="Công thức chế biến với matcha">
+            </div>
+            <div class="blog-date">15 Tháng 3, 2023</div>
+            <h3>5 công thức chế biến tuyệt vời với bột matcha</h3>
+            <p>Khám phá những công thức sáng tạo để tận dụng bột matcha trong các món tráng miệng và đồ uống.</p>
+          </a>
+        </div>
+        <div class="view-all-mobile">
+          <a href="/blog.html" class="btn btn-outline">
+            Xem tất cả bài viết
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>Khách hàng nói gì về chúng tôi</h2>
+          <p>Trải nghiệm và cảm nhận của khách hàng khi sử dụng sản phẩm của Kazuo Matcha</p>
+        </div>
+        <div class="testimonial-tabs">
+          <div class="tabs-nav">
+            <button class="tab-btn active" data-tab="all">Tất cả</button>
+            <button class="tab-btn" data-tab="matcha">Bột Matcha</button>
+            <button class="tab-btn" data-tab="tea-sets">Bộ Dụng Cụ</button>
+            <button class="tab-btn" data-tab="gifts">Quà Tặng</button>
+          </div>
+          <div class="tabs-content">
+            <div class="tab-pane active" id="all">
+              <div class="testimonial-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                  <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="testimonial-text">
+                    "Tôi đã thử rất nhiều loại matcha, nhưng matcha của Kazuo thực sự khác biệt. Hương vị đậm đà, 
+                    ngọt hậu và màu xanh tươi sáng đúng chuẩn matcha Nhật Bản. Đặc biệt là không có vị đắng khó chịu 
+                    như nhiều loại matcha khác trên thị trường."
+                  </p>
+                  <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Avatar">
+                    <div>
+                      <p class="author-name">Nguyễn Thị Minh</p>
+                      <p class="author-title">Khách hàng thân thiết</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                  <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="testimonial-text">
+                    "Bộ dụng cụ pha matcha truyền thống của Kazuo không chỉ đẹp mà còn rất chất lượng. 
+                    Tôi cảm thấy như đang thực hiện nghi thức trà đạo tại Nhật. Phới tre chasen rất tốt, 
+                    tạo bọt mịn và đều. Chén matcha làm từ gốm sứ cao cấp giữ nhiệt rất tốt."
+                  </p>
+                  <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Avatar">
+                    <div>
+                      <p class="author-name">Trần Văn Hùng</p>
+                      <p class="author-title">Chủ quán cà phê</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                  <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="testimonial-text">
+                    "Dịch vụ đặt hàng và giao hàng của Kazuo rất chuyên nghiệp. Sản phẩm được đóng gói cẩn thận, 
+                    bảo quản tốt và giao đúng hẹn. Bộ quà tặng matcha mà tôi mua làm quà sinh nhật cho bạn đã 
+                    nhận được rất nhiều lời khen. Tôi sẽ tiếp tục ủng hộ Kazuo!"
+                  </p>
+                  <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Avatar">
+                    <div>
+                      <p class="author-name">Lê Thị Hương</p>
+                      <p class="author-title">Người yêu thích trà đạo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Other tab panes would go here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section class="instagram">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>Theo dõi chúng tôi trên Instagram</h2>
+          <p>@kazuomatcha_vn</p>
+        </div>
+        <div class="instagram-grid">
+          <a href="https://instagram.com" class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="Instagram post 1">
+            <div class="instagram-overlay">
+              <i class="fas fa-code"></i>
+            </div>
+          </a>
+          <a href="https://instagram.com" class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1631308491952-050fccfd9e6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="Instagram post 2">
+            <div class="instagram-overlay">
+              <i class="fas fa-code"></i>
+            </div>
+          </a>
+          <a href="https://instagram.com" class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1582793988951-9aed5509eb97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="Instagram post 3">
+            <div class="instagram-overlay">
+              <i class="fas fa-code"></i>
+            </div>
+          </a>
+          <a href="https://instagram.com" class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1563822453-d2f9335ae99b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="Instagram post 4">
+            <div class="instagram-overlay">
+              <i class="fas fa-code"></i>
+            </div>
+          </a>
+          <a href="https://instagram.com" class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1515696955266-4f67e13219e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="Instagram post 5">
+            <div class="instagram-overlay">
+              <i class="fas fa-code"></i>
+            </div>
+          </a>
+          <a href="https://instagram.com" class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="Instagram post 6">
+            <div class="instagram-overlay">
+              <i class="fas fa-code"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Đăng ký nhận thông tin ưu đãi</h2>
+          <p>Đăng ký để nhận thông tin về sản phẩm mới, công thức chế biến với matcha và ưu đãi đặc biệt từ Kazuo Matcha</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Email của bạn" required>
+            <button type="submit" class="btn btn-light">Đăng ký</button>
+          </form>
+          <p class="privacy-note">Bằng cách đăng ký, bạn đồng ý với <a href="/privacy.html">Chính sách bảo mật</a> của chúng tôi.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <div class="footer-logo">
+            <img src="https://i.ibb.co/Jd3tVbk/matcha-logo.png" alt="Kazuo Matcha Logo">
+            <span>Kazuo Matcha</span>
+          </div>
+          <p>Mang hương vị matcha Nhật Bản chính gốc đến với người Việt Nam.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Sản phẩm</h3>
+          <ul>
+            <li><a href="#">Matcha bột</a></li>
+            <li><a href="#">Bộ dụng cụ pha matcha</a></li>
+            <li><a href="#">Bộ quà tặng</a></li>
+            <li><a href="#">Phụ kiện</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Thông tin</h3>
+          <ul>
+            <li><a href="#">Về chúng tôi</a></li>
+            <li><a href="#">Cách pha matcha</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Liên hệ</a></li>
+            <li><a href="#">Chính sách bảo mật</a></li>
+            <li><a href="#">Điều khoản sử dụng</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Liên hệ</h3>
+          <address>
+            <p><i class="fas fa-map-marker-alt"></i> 123 Đường Lê Lợi, Quận 1, TP. Hồ Chí Minh</p>
+            <p><i class="fas fa-phone"></i> 028 1234 5678</p>
+            <p><i class="fas fa-envelope"></i> info@kazuomatcha.vn</p>
+            <p><i class="fas fa-clock"></i> Thứ 2 - Thứ 6: 9:00 - 18:00</p>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Kazuo Matcha. Tất cả các quyền được bảo lưu.</p>
+        <div class="footer-links">
+          <a href="#">Chính sách bảo mật</a>
+          <a href="#">Điều khoản sử dụng</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Quick View Modal -->
+  <div class="modal" id="quickViewModal">
+    <div class="modal-content">
+      <button class="modal-close"><i class="fas fa-times"></i></button>
+      <div class="product-quick-view">
+        <div class="product-quick-view-image">
+          <img src="https://images.unsplash.com/photo-1563822453-d2f9335ae99b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&h=500&q=80" alt="Product Image">
+        </div>
+        <div class="product-quick-view-info">
+          <h2>Matcha Ceremonial Grade</h2>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>(24 đánh giá)</span>
+          </div>
+          <div class="product-price">
+            <span class="current-price">850.000₫</span>
+            <span class="old-price">950.000₫</span>
+          </div>
+          <p class="product-description">
+            Bột matcha cao cấp dành cho nghi thức trà đạo truyền thống, được thu hoạch từ những lá trà non nhất 
+            và xay bằng đá granite theo phương pháp truyền thống Nhật Bản.
+          </p>
+          <div class="product-options">
+            <div class="option-group">
+              <label>Khối lượng:</label>
+              <div class="option-buttons">
+                <button class="option-btn active">30g</button>
+                <button class="option-btn">60g</button>
+                <button class="option-btn">100g</button>
+              </div>
+            </div>
+            <div class="quantity-selector">
+              <label>Số lượng:</label>
+              <div class="quantity-buttons">
+                <button class="quantity-btn minus"><i class="fas fa-minus"></i></button>
+                <input type="number" value="1" min="1" max="99">
+                <button class="quantity-btn plus"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-actions">
+            <button class="btn btn-primary btn-block"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+            <a href="/product/matcha-ceremonial.html" class="btn btn-outline btn-block">Xem chi tiết sản phẩm</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
